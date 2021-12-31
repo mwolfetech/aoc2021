@@ -29,7 +29,7 @@
   (reduce (fn [res i]
             (+ res i))
           0
-          (range 0 (inc (cost point)))))
+          (range (inc (cost point)))))
 
 (defn calculate [data f]
   (let [in (input data)
